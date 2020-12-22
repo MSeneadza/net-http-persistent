@@ -6,6 +6,7 @@ Hoe.plugin :bundler
 Hoe.plugin :git
 Hoe.plugin :minitest
 Hoe.plugin :travis
+Hoe.plugin :gemspec
 
 Hoe.spec 'net-http-persistent' do
   developer 'Eric Hodel', 'drbrain@segment7.net'
